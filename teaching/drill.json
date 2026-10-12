@@ -1,0 +1,43 @@
+{
+  "book": "K128",
+  "repo": "kindle-128-vibe-coding-security",
+  "title": "人手一本的 Vibe Coding 資安實作課",
+  "prompt_source": "teaching/LESSON-PLAN.md",
+  "chapters": [
+    {
+      "id": "01",
+      "folder": "k128-ch01-practice",
+      "mode": "normal",
+      "minutes": 10,
+      "note": "只做命令列可完成的環境檢查（git、php、sqlite）。Claude 桌面版、XAMPP、PhpMyAdmin、VS Code＋Copilot、Kali VM 屬圖形介面安裝，快速演練略過；本機用 PHP 內建伺服器＋SQLite 取代 XAMPP＋MySQL。"
+    },
+    {
+      "id": "02",
+      "folder": "k128-ch02-practice",
+      "mode": "normal",
+      "minutes": 25,
+      "note": "核心章：用 PHP＋SQLite 做一個小型登入系統，提示詞帶入書上的資安需求（預設帳密 admin、登入後可改密碼、CSS 集中到 css 資料夾、程式檔 10 個以內）。本章產出是第 4 章的素材。"
+    },
+    {
+      "id": "03",
+      "folder": "k128-ch03-practice",
+      "mode": "normal",
+      "minutes": 10,
+      "note": "只做防守視角的概念整理：產出一份 Markdown 筆記，說明書中各類偵察與測試工具在防守端對應要檢查什麼、要如何降低暴露面。不安裝、不執行任何掃描或攻擊工具，不對任何外部目標做任何動作。"
+    },
+    {
+      "id": "04",
+      "folder": "k128-ch04-practice",
+      "mode": "normal",
+      "minutes": 30,
+      "note": "把第 2 章專案複製到本章資料夾，請 Claude 依 OWASP Top 10:2025 的 A01–A10 逐項審查並修補，只動自己的專案，修補後重跑自己寫的測試。"
+    },
+    {
+      "id": "05",
+      "folder": "k128-ch05-practice",
+      "mode": "normal",
+      "minutes": 15,
+      "note": "文件型練習：把第 4 章專案的修補對應到 ISO27001:2022 的組織、人員、實體、技術四類控制，產出對照表。附件 A／B 的 GitHub 網址未取得，附件略過。"
+    }
+  ]
+}
