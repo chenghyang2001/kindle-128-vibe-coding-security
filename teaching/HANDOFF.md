@@ -8,7 +8,7 @@
 
 | 章 | 完成日 | 實際耗時 | 和書上做法的差異 |
 | --- | --- | --- | --- |
-| 01 | | | |
+| 01 | 2026-10-16 | 約 3 分鐘 | 不裝 Claude 桌面版／XAMPP／PhpMyAdmin／VS Code＋Copilot／Kali VM，改用 PHP 8.4 內建伺服器＋SQLite；本機原本沒有 PHP，先用 winget 裝 PHP.PHP.8.4 並從 php.ini-development 建 php.ini 開 pdo_sqlite |
 | 02 | | | |
 | 03 | | | |
 | 04 | | | |
