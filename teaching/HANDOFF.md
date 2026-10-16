@@ -11,5 +11,5 @@
 | 01 | 2026-10-16 | 約 3 分鐘 | 不裝 Claude 桌面版／XAMPP／PhpMyAdmin／VS Code＋Copilot／Kali VM，改用 PHP 8.4 內建伺服器＋SQLite；本機原本沒有 PHP，先用 winget 裝 PHP.PHP.8.4 並從 php.ini-development 建 php.ini 開 pdo_sqlite |
 | 02 | 2026-10-16 | 約 4 分鐘 | 書上用 XAMPP＋MySQL＋Claude 桌面版；改為 PHP＋SQLite＋`php -S`、由 Claude Code 生成。產出 6 檔（5 php＋1 css），DB 放 public/ 之外；curl 三項驗證通過。練習視窗自報未處理：登入失敗次數限制、cookie secure（留給第 4 章） |
 | 03 | 2026-10-16 | 約 2 分鐘 | 書上在 Kali VM 實際操作偵察／測試工具；本次只寫防守視角的 DEFENSE-NOTES.md（8 類×四點＋攻擊鏈對照），未安裝、未執行任何工具、未探測任何主機；已掃描確認全文無指令 |
-| 04 | | | |
+| 04 | 2026-10-16 | 約 8 分鐘 | 書上手動／Kali 驗證，本次用 tests/smoke.sh（curl）自動驗證，教練端重跑 22/22 通過。修補：登入失敗 5 次鎖定（429）、登入日誌、安全標頭、隱藏版本、全域例外。Windows 坑：PHP 不吃 /c/ 路徑（改 pwd -W）、mingw curl 寫 /dev/null 報錯。已知風險：admin/admin 未強制改密碼 |
 | 05 | | | |
